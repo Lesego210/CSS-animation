@@ -1,0 +1,26 @@
+/* the animation code */
+@keyframes divcolor {
+    0% {background-color: red;
+    transform: translateY(200px);}
+    50% {background-color: yellow;
+    border-radius: 100%;}
+    100% {background-color: blue;
+    transform: rotate(90deg-);}
+}
+
+
+
+
+
+/*  the element to apply the animation to   */
+div {
+width: 100px;
+height: 100px;
+background-color: red:
+animation-name: divcolor;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in;
+animation-direction: alternate;
+
+}
